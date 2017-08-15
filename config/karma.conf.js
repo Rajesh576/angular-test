@@ -39,5 +39,9 @@ module.exports = function (config) {
     autoWatch: true,
     browsers: ['PhantomJS'],
     singleRun: false
+	 reporters = ['dots', 'junit'];
+     junitReporter = {
+     outputFile: 'test-results.xml'
+     };
   });
 };
