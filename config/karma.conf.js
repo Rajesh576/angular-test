@@ -37,8 +37,8 @@ module.exports = function (config) {
     logLevel: config.LOG_INFO,
     autoWatch: true,
     browsers: ['PhantomJS'],
-    singleRun: false
-	 reporters = ['progress','dots', 'junit'];
+    singleRun: true,
+	 reporters = ['progress','dots', 'junit'],
      junitReporter = {
 	 outputDir: 'karma-results',	 
      outputFile: 'test-results.xml'
