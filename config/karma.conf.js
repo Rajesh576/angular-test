@@ -42,6 +42,6 @@ module.exports = function (config) {
      junitReporter = {
 	 outputDir: 'karma-results',	 
      outputFile: 'test-results.xml'
-     };
+     }
   });
 };
